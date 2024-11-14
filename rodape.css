@@ -1,0 +1,95 @@
+/*rodapé*/
+footer{
+    background-color: #69cc30;
+    color: white;
+    padding: 40px 0 ;
+    width: 100%;
+
+    }
+
+footer .line-footer1{
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.line-footer1 h2{
+    font-size: 2rem;   
+}
+
+.line-footer1 p{
+    font-size: 1.2rem;
+    margin: 10px 0 20px 0;
+}
+
+.line-footer1 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.line-footer1 form input[type=email]{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px; 
+}
+
+.line-footer1 form input[type=submit]{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #69cc30;
+    border: 0;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s;
+    margin: 5px;
+    padding: 5px;
+}
+
+.line-footer1 form input[type=submit]:hover{
+    background-color: #69cc30;
+    color: white;
+}
+
+footer .line-footer2{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .line-footer2 .box-line-footer{
+    max-width: calc(100%/4);
+}
+
+footer .box-line-footer img{
+    max-width: 200px;
+    margin-bottom: 10px;   
+}
+
+.line-footer2 .box-line-footer h3{
+    color: white;
+    margin-bottom: 20px;
+} 
+
+.line-footer2 .box-line-footer a{
+    color:white; 
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.line-footer2 .box-line-footer .btnicon {
+    display: inline-block;
+}
+
+
+.line-footer2 .box-line-footer a:hover{
+    color: #69cc30;
+}
